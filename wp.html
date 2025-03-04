@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ml-IN">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>പ്രവേശിക്കുക &lsaquo; dc &#8212; വേഡ്പ്രസ്സ്</title>
+    <meta name='robots' content='max-image-preview:large, noindex, noarchive' />
+    <script type="text/javascript" src="/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+    <script type="text/javascript" src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+    <link rel='stylesheet' href='/wp-content/plugins/contact-form-7-image-captcha/css/cf7ic-style.css?ver=3.3.7' type='text/css' media='all' />
+    <link rel='stylesheet' href='/wp-includes/css/dashicons.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='/wp-includes/css/buttons.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='/wp-admin/css/forms.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='/wp-admin/css/l10n.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='/wp-admin/css/login.min.css' type='text/css' media='all' />
+    
+    <script language="javascript" type="text/javascript">
+        var style = document.createElement("style");
+        style.type = "text/css";
+        style.id = "antiClickjack";
+        style.innerHTML = "body{display:none !important;}";
+        document.getElementsByTagName("head")[0].appendChild(style);
+
+        if (top.document.domain === document.domain) {
+            var antiClickjack = document.getElementById("antiClickjack");
+            antiClickjack.parentNode.removeChild(antiClickjack);
+        } else {
+            top.location = self.location;
+        }
+    </script>
+
+    <meta name='referrer' content='strict-origin-when-cross-origin' />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/wp-content/uploads/2021/10/logofav.png" sizes="32x32" />
+    <link rel="icon" href="/wp-content/uploads/2021/10/logofav.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="/wp-content/uploads/2021/10/logofav.png" />
+    <meta name="msapplication-TileImage" content="/wp-content/uploads/2021/10/logofav.png" />
+</head>
+<body class="login no-js login-action-login wp-core-ui locale-ml-in">
+    <script type="text/javascript">
+        document.body.className = document.body.className.replace('no-js', 'js');
+    </script>
+
+    <h1 class="screen-reader-text">പ്രവേശിക്കുക</h1>
+    <div id="login">
+        <h1 class="wp-login-logo"><a href="https://wordpress.org/">വേർഡ്‌പ്രെസ്സിനാൽ പ്രവര്ത്തിക്കുന്നത്</a></h1>
+
+        <form name="loginform" id="loginform" action="/wp-login.php" method="post">
+            <p>
+                <label for="user_login">ഉപയോക്തൃനാമം അല്ലെങ്കില്‍ ഇമെയില്‍ വിലാസം</label>
+                <input type="text" name="log" id="user_login" class="input" value="" size="20" autocapitalize="off" autocomplete="username" required="required" />
+            </p>
+
+            <div class="user-pass-wrap">
+                <label for="user_pass">രഹസ്യവാക്ക്</label>
+                <div class="wp-pwd">
+                    <input type="password" name="pwd" id="user_pass" class="input password-input" value="" size="20" autocomplete="current-password" spellcheck="false" required="required" />
+                    <button type="button" class="button button-secondary wp-hide-pw hide-if-no-js" data-toggle="0" aria-label="രഹസ്യവാക്ക് കാണിക്കുക">
+                        <span class="dashicons dashicons-visibility" aria-hidden="true"></span>
+                    </button>
+                </div>
+            </div>
+
+            <p class="forgetmenot">
+                <input name="rememberme" type="checkbox" id="rememberme" value="forever" />
+                <label for="rememberme">എന്നെ ഓര്‍ത്തുവെക്കുക</label>
+            </p>
+
+            <p class="submit">
+                <input type="submit" name="wp-submit" id="wp-submit" class="button button-primary button-large" value="പ്രവേശിക്കുക" />
+                <input type="hidden" name="redirect_to" value="/wp-admin/" />
+                <input type="hidden" name="testcookie" value="1" />
+            </p>
+        </form>
+
+        <p id="nav">
+            <a class="wp-login-lost-password" href="/wp-login.php?action=lostpassword">നിങ്ങളുടെ രഹസ്യകോഡ്‌ നഷ്ടപ്പെട്ടോ?</a>
+        </p>
+
+        <script type="text/javascript">
+            function wp_attempt_focus() {
+                setTimeout(function() {
+                    try {
+                        d = document.getElementById("user_login");
+                        d.focus();
+                        d.select();
+                    } catch (er) {}
+                }, 200);
+            }
+            wp_attempt_focus();
+            if (typeof wpOnload === 'function') {
+                wpOnload()
+            }
+        </script>
+
+        <p id="backtoblog">
+            <a href="/">&larr; തിരികെ dc ലേക്ക്.</a>
+        </p>
+    </div>
+
+    <div class="language-switcher">
+        <form id="language-switcher" method="get">
+            <label for="language-switcher-locales">
+                <span class="dashicons dashicons-translation" aria-hidden="true"></span>
+                <span class="screen-reader-text">ഭാഷ</span>
+            </label>
+
+            <select name="wp_lang" id="language-switcher-locales">
+                <option value="en_US" lang="en" data-installed="1">English (United States)</option>
+                <option value="en_GB" lang="en" data-installed="1">English (UK)</option>
+                <option value="ml_IN" lang="ml" selected='selected' data-installed="1">മലയാളം</option>
+            </select>
+
+            <input type="submit" class="button" value="മാറ്റം">
+        </form>
+    </div>
+
+    <script type="text/javascript" src="/wp-includes/js/clipboard.min.js?ver=2.0.11"></script>
+    <script type="text/javascript" src="/wp-includes/js/zxcvbn-async.min.js?ver=1.0"></script>
+    <script type="text/javascript" src="/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6"></script>
+    <script type="text/javascript" src="/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6"></script>
+    <script type="text/javascript" src="/wp-admin/js/password-strength-meter.min.js"></script>
+    <script type="text/javascript" src="/wp-includes/js/underscore.min.js?ver=1.13.7"></script>
+    <script type="text/javascript" src="/wp-includes/js/wp-util.min.js"></script>
+    <script type="text/javascript" src="/wp-includes/js/dist/dom-ready.min.js?ver=f77871ff7694fffea381"></script>
+</body>
+</html>
